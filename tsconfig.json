@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitThis": false
+  }
+}
