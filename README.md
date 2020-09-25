@@ -13,11 +13,11 @@ npm install typescript-libs-builder --save-dev
 ```
 # add build script in your project package.json
 "scripts": {
-  "init": "node ./lib/init.js",
-  "dev": "node ./lib/dev.js",
-  "build": "node ./lib/build.js",
-  "format": "node ./lib/format.js",
-  "test": "node ./lib/test.js"
+  "init": "node ./node_modules/typescript-libs-builder/lib/init.js",
+  "dev": "node ./node_modules/typescript-libs-builder/lib/dev.js",
+  "build": "node ./node_modules/typescript-libs-builder/lib/build.js",
+  "format": "node ./node_modules/typescript-libs-builder/lib/format.js",
+  "test": "node ./node_modules/typescript-libs-builder/lib/test.js"
 }
 # add export declartion
 "module": "./dist/xxx.es.min.js",
@@ -43,9 +43,9 @@ npm run test
 |output file name|description|
 |---|---|
 |xxx.es.js|build src/index.ts and node_modules by es|
-|xxx.es.min.js|build src/index.ts without node_modules by es|
-|xxx.cjs.min.js|build src/index.ts without node_modules by cjs|
-|xxx.umd.min.js|build src/index.ts and node_modules by umd|
+|xxx.es.min.js|minify build src/index.ts without node_modules by es|
+|xxx.cjs.min.js|minify build src/index.ts without node_modules by cjs|
+|xxx.umd.min.js|minify build src/index.ts and node_modules by umd|
 
 ## redefine build plugin config
 "babel" and "eslint" config can redefine, just declare "babel.config.js" or ".eslintrc.js" in your project dir
