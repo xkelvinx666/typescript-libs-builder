@@ -1,7 +1,7 @@
 {
   "name": "typescript-libs-builder",
-  "version": "1.0.0",
-  "description": "a builder for typescript libs,including eslint babel jest",
+  "version": "1.0.1",
+  "description": "a builder for typescript libs,including eslint jest",
   "keywords": [],
   "author": "captaincai",
   "license": "MIT",
@@ -13,9 +13,6 @@
     "init": "node ./lib/init.js"
   },
   "dependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "@rollup/plugin-babel": "^5.2.1",
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",

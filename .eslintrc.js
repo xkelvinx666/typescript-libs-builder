@@ -27,4 +27,11 @@ module.exports = {
     browser: true,
     jest: true,
   },
+  rules: {
+    'arrow-parens': 'off',
+    'import/newline-after-import': 'off',
+    'func-names': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+    'import/prefer-default-export': 'off',
+  },
 };

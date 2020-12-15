@@ -1,6 +1,6 @@
 # typescript-libs-builder
 
-a builder for typescript libs,including eslint babel jest
+a builder for typescript libs,including eslint jest
 
 > 'xxx' below is your project package.json name
 
@@ -48,4 +48,4 @@ npm run test
 |xxx.umd.min.js|minify build src/index.ts and node_modules by umd|
 
 ## redefine build plugin config
-"babel" and "eslint" config can redefine, just declare "babel.config.js" or ".eslintrc.js" in your project dir
+"eslint" config can redefine, just declare ".eslintrc.js" in your project dir
